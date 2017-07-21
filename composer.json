@@ -1,0 +1,26 @@
+{
+    "name": "linio/common-legacy",
+    "description": "Library of legacy classes for Linio projects",
+    "keywords": ["linio", "common", "legacy"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.0",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "friendsofphp/php-cs-fixer": "^2.4",
+        "nelmio/alice": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linio\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Linio\\": "tests/"
+        }
+    }
+}
